@@ -112,3 +112,9 @@ alias unsetproxy="unset ALL_PROXY"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# auto-suggestion
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# synta-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
