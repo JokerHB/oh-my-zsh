@@ -100,6 +100,10 @@ alias pinstall="sudo pip install -i https://pypi.doubanio.com/simple/"
 
 # allow software install from other place
 alias softinstall='sudo spctl --master-disable'
+alias cotalinainstall='sudo xattr -r -d com.apple.quarantine'
+
+# fix camera
+alias fixcamera='sudo killall VDCAssistant & sudo killall AppleCameraAssistant'
 
 # terminal proxy
 alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1086"
@@ -118,3 +122,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # synta-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# easy login/logout
+alias srun='sudo /Users/joker/.srun'
